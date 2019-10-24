@@ -1,0 +1,185 @@
+{
+  "hyperloop": {
+    "id": 1,
+    "title": "Hyperloop Interface.",
+    "active": true,
+    "description": "Around the World in a Minute",
+    "featuredImage": "/Projects/Hyperloop/featuredImg.png",
+    "client": "Cool Ventures, California",
+    "clientUrl": "https://www.behance.net/gallery/69868059/Hyperloop-Interface-Around-the-World-in-a-Minute",
+    "contributions": "UI animations, Illustrations",
+    "projectUrl": "https://www.behance.net/gallery/69868059/Hyperloop-Interface-Around-the-World-in-a-Minute",
+    "color": "#1E7BE2",
+    "html": [
+      {
+        "text": "An idea emerged back in the 20th century about a brand new mode of transport involving a magnetic pad to reduce friction. In 2012, when California was all about the California High-Speed Rail project, Elon Musk suggested Hyperloop. We want to show few cases for Hyperloop, which we made in the begining of 2018. So this interface is totally unique, with its own functionality and usability.",
+        "type": "text"
+      },
+      {
+        "type": "image",
+        "images": [
+          {
+            "url": "/Projects/Hyperloop/1.gif",
+            "title": "My cool picture"
+          },
+          {
+            "url": "/Projects/Hyperloop/2.png",
+            "title": "My cool picture"
+          },
+          {
+            "url": "/Projects/Hyperloop/3.png",
+            "title": "My cool picture"
+          }
+        ]
+      },
+      {
+        "text": "Sed viverra at felis a posuere. Vestibulum mauris ipsum, molestie nec porttitor nec, gravida vel ipsum. Aenean in blandit felis. Nunc id augue lacus. Sed laoreet at turpis nec suscipit. Aliquam vitae eleifend justo. Lorem ipsum dolor sit.",
+        "type": "text"
+      },
+      {
+        "type": "image",
+        "images": [
+          {
+            "url": "/Projects/Hyperloop/4.gif",
+            "title": "My cool picture"
+          },
+          {
+            "url": "/Projects/Hyperloop/5.gif",
+            "title": "My cool picture"
+          }
+        ]
+      },
+      {
+        "text": "Sed viverra at felis a posuere. Vestibulum mauris ipsum, molestie nec porttitor nec, gravida vel ipsum. Aenean in blandit felis. Nunc id augue lacus. Sed laoreet at turpis nec suscipit. Aliquam vitae eleifend justo. Lorem ipsum dolor sit.",
+        "type": "text"
+      }
+    ]
+  },
+  "food-delivery": {
+    "id": 2,
+    "title": "Osaki",
+    "active": true,
+    "description": "Food Delivery App",
+    "featuredImage": "/Projects/FoodDelivery/featuredImage.png",
+    "client": "Cool Ventures, California",
+    "clientUrl": "https://www.behance.net/gallery/69868059/Hyperloop-Interface-Around-the-World-in-a-Minute",
+    "contributions": "UI animations, Illustrations",
+    "projectUrl": "https://www.behance.net/gallery/69868059/Hyperloop-Interface-Around-the-World-in-a-Minute",
+    "color": "#60A90B",
+    "html": [
+      {
+        "text": "An idea emerged back in the 20th century about a brand new mode of transport involving a magnetic pad to reduce friction. In 2012, when California was all about the California High-Speed Rail project, Elon Musk suggested Hyperloop. We want to show few cases for Hyperloop, which we made in the begining of 2018. So this interface is totally unique, with its own functionality and usability.",
+        "type": "text"
+      },
+      {
+        "type": "image",
+        "images": [
+          {
+            "url": "/Projects/FoodDelivery/1.png",
+            "title": "My cool picture"
+          }
+        ]
+      },
+      {
+        "text": "Sed viverra at felis a posuere. Vestibulum mauris ipsum, molestie nec porttitor nec, gravida vel ipsum. Aenean in blandit felis. Nunc id augue lacus. Sed laoreet at turpis nec suscipit. Aliquam vitae eleifend justo. Lorem ipsum dolor sit.",
+        "type": "text"
+      },
+      {
+        "type": "image",
+        "images": [
+          {
+            "url": "/Projects/FoodDelivery/2.png",
+            "title": "My cool picture"
+          },
+          {
+            "url": "/Projects/FoodDelivery/3.png",
+            "title": "My cool picture"
+          }
+        ]
+      },
+      {
+        "text": "Sed viverra at felis a posuere. Vestibulum mauris ipsum, molestie nec porttitor nec, gravida vel ipsum. Aenean in blandit felis. Nunc id augue lacus. Sed laoreet at turpis nec suscipit. Aliquam vitae eleifend justo. Lorem ipsum dolor sit.",
+        "type": "text"
+      },
+      {
+        "type": "image",
+        "images": [
+          {
+            "url": "/Projects/FoodDelivery/4.png",
+            "title": "My cool picture"
+          }
+        ]
+      },
+      {
+        "text": "Sed viverra at felis a posuere. Vestibulum mauris ipsum, molestie nec porttitor nec, gravida vel ipsum. Aenean in blandit felis. Nunc id augue lacus. Sed laoreet at turpis nec suscipit. Aliquam vitae eleifend justo. Lorem ipsum dolor sit.",
+        "type": "text"
+      }
+    ]
+  },
+  "travel": {
+    "id": 3,
+    "title": "Luxury Travel",
+    "active": true,
+    "description": "Explore the world in amazing comfort",
+    "featuredImage": "/Projects/travel/featuredImage.gif",
+    "client": "Cool Ventures, California",
+    "clientUrl": "https://www.behance.net/gallery/69868059/Hyperloop-Interface-Around-the-World-in-a-Minute",
+    "contributions": "UI animations, Illustrations",
+    "projectUrl": "https://www.behance.net/gallery/69868059/Hyperloop-Interface-Around-the-World-in-a-Minute",
+    "color": "#E6023B",
+    "html": [
+      {
+        "text": "An idea emerged back in the 20th century about a brand new mode of transport involving a magnetic pad to reduce friction. In 2012, when California was all about the California High-Speed Rail project, Elon Musk suggested Hyperloop. We want to show few cases for Hyperloop, which we made in the begining of 2018. So this interface is totally unique, with its own functionality and usability.",
+        "type": "text"
+      },
+      {
+        "quote": "An insightful quote from someone goes here!",
+        "author": "Some Cool Dude",
+        "type": "quote"
+      },
+      {
+        "type": "image",
+        "images": [
+          {
+            "url": "/Projects/Travel/1.gif",
+            "title": "My cool picture"
+          }
+        ]
+      },
+      {
+        "text": "Sed viverra at felis a posuere. Vestibulum mauris ipsum, molestie nec porttitor nec, gravida vel ipsum. Aenean in blandit felis. Nunc id augue lacus. Sed laoreet at turpis nec suscipit. Aliquam vitae eleifend justo. Lorem ipsum dolor sit.",
+        "type": "text"
+      },
+      {
+        "type": "image",
+        "images": [
+          {
+            "url": "/Projects/Travel/2.gif",
+            "title": ""
+          },
+          {
+            "url": "/Projects/Travel/3.gif",
+            "title": ""
+          }
+        ]
+      },
+      {
+        "text": "Sed viverra at felis a posuere. Vestibulum mauris ipsum, molestie nec porttitor nec, gravida vel ipsum. Aenean in blandit felis. Nunc id augue lacus. Sed laoreet at turpis nec suscipit. Aliquam vitae eleifend justo. Lorem ipsum dolor sit.",
+        "type": "text"
+      },
+      {
+        "type": "image",
+        "images": [
+          {
+            "url": "/Projects/Travel/4.gif",
+            "title": "My cool picture"
+          }
+        ]
+      },
+      {
+        "text": "Sed viverra at felis a posuere. Vestibulum mauris ipsum, molestie nec porttitor nec, gravida vel ipsum. Aenean in blandit felis. Nunc id augue lacus. Sed laoreet at turpis nec suscipit. Aliquam vitae eleifend justo. Lorem ipsum dolor sit.",
+        "type": "text"
+      }
+    ]
+  }
+}
