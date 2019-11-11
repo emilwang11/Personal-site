@@ -1,9 +1,9 @@
 <template>
   <div id="app">
-    <b-navbar toggleable="md" type="dark" variant="dark" class="d-fixed">
+    <b-navbar toggleable="md" class="d-fixed teal-color">
       <b-navbar-toggle target="nav_collapse"></b-navbar-toggle>
 
-      <b-navbar-brand to="/">My New Website</b-navbar-brand>
+      <b-navbar-brand to="/">Emily's Website</b-navbar-brand>
 
       <b-collapse is-nav id="nav_collapse">
         <!-- Right aligned nav items, collapsed on mobile -->
@@ -33,7 +33,7 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #2c3e50;
+  color: #69bac0;
 }
 
 .fade-enter-active, .fade-leave-active {
@@ -41,6 +41,10 @@
 }
 .fade-enter, .fade-leave-to /* .fade-leave-active below version 2.1.8 */ {
   opacity: 0;
+}
+
+.teal-color{
+  background: #C8E7E1 !important
 }
 </style>
 
