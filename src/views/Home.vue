@@ -61,18 +61,16 @@
       <h1 class="py-4 text-left">
         Projects
       </h1>
-
-
-      <b-card-group deck class="my-5">
+      <b-card-group deck class="my-2">
         <v-flex
-          class="ma-2"
+          class="ma-2 mx-auto"
           v-for="(page, key) in json"
           :key="page.id"
           >
 
           <b-card
             :title= page.title
-            img-src="https://picsum.photos/600/300/?image=25"
+            :img-src= page.featuredImage
             img-alt="Image"
             img-top
             tag="article"
@@ -80,52 +78,19 @@
             class="mb-2"
           >
             <b-card-text>
-              <a :href="'/project/' + key" class="d-block m-4 p-3">
-              {{page.description}}
-              </a>
+              <p class="tagline"> {{page.tagline}} </p>
+              <p class="description"> {{page.description}} </p>
             </b-card-text>
 
-            <b-button href="#" variant="primary">Go somewhere</b-button>
+            <b-button v-if="page.id<4" :href="'/project/' + key" class="d-block button m-2 p-2" >Learn more</b-button>
           </b-card>
         </v-flex>
       </b-card-group>
     </b-container>
+
+     <!-------------skills section--------------->
   </b-container>
 </template>
-
-      <!-- <b-row
-        class="section justify-content-center align-items-center"
-        v-for="(page, key) in json"
-        :key="page.id"
-      >
-        <b-col
-          sm=6
-          md=3
-          :order-md="page.id % 2"
-          class="px-0"
-        >
-          <router-link :to="'/project/' + key">
-            <img
-              :src="'/img' + page.featuredImage"
-            />
-          </router-link>
-        </b-col>
-        <b-col
-          sm=6
-          md=3
-          class="dark h-100 d-block"
-          :order-md="(page.id + 1) % 2"
-        >
-          <a :href="'/project/' + key" class="d-block m-4 p-3">
-            <h3>
-              {{page.title}}
-            </h3>
-            <p>
-              {{page.description}}
-            </p>
-          </a>
-        </b-col>
-      </b-row> -->
 
 <script lang="ts">
 import Vue from 'vue'
@@ -171,5 +136,18 @@ img {
 .icons {
   width: 25px;
   margin: 10px;
+}
+.tagline{
+  font-size: 1.1em;
+  color: #3B3333;
+}
+.description{
+  font-size: 1em;
+  color: #3B3333;
+}
+.button{
+  background-color: #BCBCBC !important;
+  color: white;
+  border: none !important;
 }
 </style>

@@ -1,10 +1,11 @@
 {
-  "hyperloop": {
+  "colorBoard": {
     "id": 1,
     "title": "ColorBoard",
     "active": true,
-    "description": "Around the World in a Minute",
-    "featuredImage": "/Projects/Hyperloop/featuredImg.png",
+    "tagline": "Run your handwritten code",
+    "description": "A webapp that turns pictures of your handwrritten code into text and compiles it for you",
+    "featuredImage": "/img/projects/codeboard.png",
     "client": "Cool Ventures, California",
     "clientUrl": "https://www.behance.net/gallery/69868059/Hyperloop-Interface-Around-the-World-in-a-Minute",
     "contributions": "UI animations, Illustrations",
@@ -55,12 +56,13 @@
       }
     ]
   },
-  "food-delivery": {
+  "thrive": {
     "id": 2,
     "title": "Thrive",
     "active": true,
-    "description": "Food Delivery App",
-    "featuredImage": "/Projects/FoodDelivery/featuredImage.png",
+    "tagline": "Helping newcomers feel at home",
+    "description": "An all-in-one android app that provides voice translations, translates objects in photos and compiles all the resources immigrants would need.",
+    "featuredImage":  "/img/projects/Thrive.png",
     "client": "Cool Ventures, California",
     "clientUrl": "https://www.behance.net/gallery/69868059/Hyperloop-Interface-Around-the-World-in-a-Minute",
     "contributions": "UI animations, Illustrations",
@@ -116,12 +118,13 @@
       }
     ]
   },
-  "travel": {
+  "student-calc": {
     "id": 3,
     "title": "Student Budget Calculator",
     "active": true,
-    "description": "Explore the world in amazing comfort",
-    "featuredImage": "/Projects/travel/featuredImage.gif",
+    "tagline": "Helping students plan for school",
+    "description": "A project I worked on at TD Labs. A web app that helps students add up all their costs for school.",
+    "featuredImage": "/img/projects/student-budget-calc.png",
     "client": "Cool Ventures, California",
     "clientUrl": "https://www.behance.net/gallery/69868059/Hyperloop-Interface-Around-the-World-in-a-Minute",
     "contributions": "UI animations, Illustrations",
@@ -183,11 +186,11 @@
     ]
   },
   "wise": {
-    "id": 2,
+    "id": 4,
     "title": "Wise",
     "active": true,
     "description": "Food Delivery App",
-    "featuredImage": "/Projects/FoodDelivery/featuredImage.png",
+    "featuredImage": "/img/projects/wise.png",
     "client": "Cool Ventures, California",
     "clientUrl": "https://www.behance.net/gallery/69868059/Hyperloop-Interface-Around-the-World-in-a-Minute",
     "contributions": "UI animations, Illustrations",
@@ -244,11 +247,11 @@
     ]
   },
   "exam-prep": {
-    "id": 3,
+    "id": 5,
     "title": "DECA Exam Prep",
     "active": true,
     "description": "Explore the world in amazing comfort",
-    "featuredImage": "/Projects/travel/featuredImage.gif",
+    "featuredImage": "/img/projects/deca.png",
     "client": "Cool Ventures, California",
     "clientUrl": "https://www.behance.net/gallery/69868059/Hyperloop-Interface-Around-the-World-in-a-Minute",
     "contributions": "UI animations, Illustrations",
@@ -311,11 +314,11 @@
   },
 
   "game": {
-    "id": 1,
+    "id": 6,
     "title": "Fruity Catch",
     "active": true,
     "description": "Around the World in a Minute",
-    "featuredImage": "/Projects/Hyperloop/featuredImg.png",
+    "featuredImage": "/img/projects/fruity-catch.png",
     "client": "Cool Ventures, California",
     "clientUrl": "https://www.behance.net/gallery/69868059/Hyperloop-Interface-Around-the-World-in-a-Minute",
     "contributions": "UI animations, Illustrations",
