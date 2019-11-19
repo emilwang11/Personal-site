@@ -81,13 +81,14 @@
                 <p class="description"> {{page.description}} </p>
             </b-card-text>
 
-            <b-button v-if="page.id<4" :href="'/project/' + key" class="block button p-2" >Learn more</b-button>
+            <!-- <b-button v-if="page.id<4" :href="'/project/' + key" class="block button p-2" >Learn more</b-button> -->
             <a :href="page.github" target="_blank">
-              <b-img
+              <b-img v-if="page.id != 3"
                 src="/img/icons/github-logo.png"
                 class="icons"
               ></b-img>
             </a>
+            <b-button v-if="page.id == 3" :href="page.github" style="background-color: #91C6BD !important" class="button px-3" >Visit </b-button>
           </b-card>
         </div>
       </b-card-group>
