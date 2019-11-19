@@ -61,9 +61,9 @@
       <h1 class="py-4 text-left">
         Projects
       </h1>
-      <b-card-group deck class="my-2">
-        <v-flex
-          class="ma-2 mx-auto"
+      <b-card-group columns deck class="my-2">
+        <div
+          class="ma-2 mx-auto card-container"
           v-for="(page, key) in json"
           :key="page.id"
           >
@@ -74,17 +74,22 @@
             img-alt="Image"
             img-top
             tag="article"
-            style="max-width: 20rem;"
-            class="mb-2"
+            class="mb-4 content"
           >
             <b-card-text>
-              <p class="tagline"> {{page.tagline}} </p>
-              <p class="description"> {{page.description}} </p>
+                <p class="tagline"> {{page.tagline}} </p>
+                <p class="description"> {{page.description}} </p>
             </b-card-text>
 
-            <b-button v-if="page.id<4" :href="'/project/' + key" class="d-block button m-2 p-2" >Learn more</b-button>
+            <b-button v-if="page.id<4" :href="'/project/' + key" class="block button p-2" >Learn more</b-button>
+            <a :href="page.github" target="_blank">
+              <b-img
+                src="/img/icons/github-logo.png"
+                class="icons"
+              ></b-img>
+            </a>
           </b-card>
-        </v-flex>
+        </div>
       </b-card-group>
     </b-container>
 
@@ -133,12 +138,60 @@ img {
   color: #3B3333;
   font-size: 1.3em;
 }
+.card-container{
+  height: auto;
+}
+
 .icons {
   width: 25px;
   margin: 10px;
 }
+.card-img-top{
+  border-radius: inherit !important;
+  height: 9rem;
+}
+
+.card{
+  border: none !important;
+  border-radius: 20px !important;
+  position: relative !important;
+  box-shadow: 0 0.5px 20px 0 rgba(0, 0, 0, 0.1) !important;
+  width: 20rem;
+   -webkit-transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+  transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+.card::after{
+  border: none !important;
+  border-radius: 20px !important;
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  box-shadow: 0 0.5px 20px 0 rgba(0, 0, 0, 0.1) !important;
+  opacity: 0;
+  -webkit-transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+  transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+.card:hover {
+  transform: scale(1.02, 1.02);
+  -webkit-transform: scale(1.02, 1.02);
+}
+
+.card:hover::after {
+  opacity: 1;
+}
+
+.card-body{
+  height: 15rem;
+  position: relative;
+}
 .tagline{
   font-size: 1.1em;
+  font-style: italic;
   color: #3B3333;
 }
 .description{
@@ -149,5 +202,10 @@ img {
   background-color: #BCBCBC !important;
   color: white;
   border: none !important;
+  bottom: 5px !important;
+}
+.card-title{
+  font-size: 1.4rem;
+  font-weight: bold;
 }
 </style>
