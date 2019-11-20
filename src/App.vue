@@ -1,9 +1,8 @@
 <template>
   <div id="app">
-    <b-navbar toggleable="md" class="d-fixed teal-color">
+    <b-navbar toggleable="md" fixed="top" class="header">
       <b-navbar-toggle target="nav_collapse"></b-navbar-toggle>
-
-      <b-navbar-brand to="/">Emily's Website</b-navbar-brand>
+      <b-navbar-brand to="/"> <img class="logo" src="/img/logo.png" ></b-navbar-brand>
 
       <b-collapse is-nav id="nav_collapse">
         <!-- Right aligned nav items, collapsed on mobile -->
@@ -24,6 +23,33 @@
     <transition name="fade">
       <router-view />
     </transition>
+
+
+  <!-- Footer -->
+    <div>
+       <div class= "w-100">
+              <a href="https://www.linkedin.com/in/emwang11/" target="_blank">
+                <b-img
+                  src="/img/icons/linkedin-logo.png"
+                  class="icons"
+               ></b-img>
+              </a>
+              <a href="https://github.com/emilwang11" target="_blank">
+                <b-img
+                  src="/img/icons/github-logo.png"
+                  class="icons"
+               ></b-img>
+              </a>
+               <a href="mailto:e47wang@uwaterloo.ca? Subject=Hello" target="_top">
+                <b-img
+                  src="/img/icons/mail-logo.png"
+                  class="icons"
+               ></b-img>
+              </a>
+            </div>
+      <p>Made with &hearts; by Emily &copy; 2019</p>
+    </div>
+
   </div>
 </template>
 
@@ -43,9 +69,20 @@
   opacity: 0;
 }
 
-.teal-color{
-  background: #C8E7E1 !important
+body { padding-top: 70px; }
+
+.header{
+  background:#C8E7E1 !important;
+  height: 55px !important;
 }
+
+.logo{
+  width: 50%;
+  height: 50%;
+  margin: 0;
+  padding: 0;
+}
+
 </style>
 
 <script lang="ts">
