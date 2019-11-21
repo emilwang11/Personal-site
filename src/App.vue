@@ -15,6 +15,7 @@
             >{{page.title}}</b-dropdown-item>
           </b-nav-item-dropdown>
           <b-nav-item to="/about" right>About</b-nav-item>
+          <b-nav-item href="/img/resume.pdf" target="_blank">Resume</b-nav-item>
         </b-navbar-nav>
       </b-collapse>
     </b-navbar>
@@ -23,7 +24,6 @@
     <transition name="fade">
       <router-view />
     </transition>
-
 
   <!-- Footer -->
     <div>
@@ -77,10 +77,11 @@ body { padding-top: 70px; }
 }
 
 .logo{
-  width: 50%;
-  height: 50%;
+  width: 45%;
+  height: 45%;
   margin: 0;
   padding: 0;
+
 }
 
 </style>

@@ -21,7 +21,7 @@
             sm=12
             md=6
           >
-            <h2 class= "w-75 my-5">
+            <h2 class= "my-5 margin-auto">
               Hi! I'm Emily!
             </h2>
             <p class ="intro w-75 my-4">
@@ -32,7 +32,7 @@
                 Systems Design Student @ University of Waterloo <br>
                 Logistics Organizer @ Hack the North
             </p>
-            <div class= "w-75">
+            <div class= "margin-auto">
               <a href="https://www.linkedin.com/in/emwang11/" target="_blank">
                 <b-img
                   src="/img/icons/linkedin-logo.png"
@@ -88,7 +88,7 @@
                 class="icons"
               ></b-img>
             </a>
-            <b-button v-if="page.id == 3" :href="page.github" style="background-color: #91C6BD !important" class="button px-3" >Visit </b-button>
+            <b-button v-if="page.id == 3" :href="page.github" target="_blank" style="background-color: #91C6BD !important" class="button px-3" >Visit </b-button>
           </b-card>
         </div>
       </b-card-group>
@@ -133,11 +133,17 @@ img {
 .background-image {
   background-size: cover;
   background-position: center;
+  width: 100% !important;
+  height: auto !important;
 }
 
+.h2{
+  margin: auto;
+}
 .intro {
   color: #3B3333;
   font-size: 1.3em;
+  margin: auto;
 }
 .card-container{
   height: auto;
