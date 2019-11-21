@@ -7,14 +7,15 @@
       <b-collapse is-nav id="nav_collapse">
         <!-- Right aligned nav items, collapsed on mobile -->
         <b-navbar-nav class="ml-auto">
+          <b-nav-item to="/#" right>Home</b-nav-item>
+          <b-nav-item to="/about" right>About</b-nav-item>
           <b-nav-item-dropdown text="Projects" right>
-            <b-dropdown-item
+           <b-dropdown-item
               v-for="(page, key) in json"
               :key="key"
               :to="'/project/' + key"
-            >{{page.title}}</b-dropdown-item>
-          </b-nav-item-dropdown>
-          <b-nav-item to="/about" right>About</b-nav-item>
+              >{{page.title}}</b-dropdown-item>
+           </b-nav-item-dropdown>
           <b-nav-item href="/img/resume.pdf" target="_blank">Resume</b-nav-item>
         </b-navbar-nav>
       </b-collapse>
