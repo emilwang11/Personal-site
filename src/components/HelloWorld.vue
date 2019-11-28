@@ -25,7 +25,6 @@ export default Vue.extend({
   },
   mounted () {
     this.json = json
-    console.log(json)
   }
 })
 </script>
