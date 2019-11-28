@@ -57,14 +57,14 @@
       }
     ]
   },
-  "thrive": {
+  "drive": {
     "id": 2,
-    "title": "Thrive",
+    "title": "DriverSyde",
     "active": true,
-    "tagline": "Helping newcomers feel at home",
-    "github": "https://github.com/S-M-Jawwad-Raza/HackUofTVI",
-    "description": "An android app that translates objects in photos and speech-to-text translations.",
-    "featuredImage":  "/img/projects/Thrive.png",
+    "tagline": "A virtual driving instructor",
+    "description": "An android app that provides guides new drivers real time instructions on the road.",
+    "featuredImage": "/img/projects/DriverSyde.png",
+    "github": "https://github.com/emilwang11/Bingo",
     "client": "Cool Ventures, California",
     "clientUrl": "https://www.behance.net/gallery/69868059/Hyperloop-Interface-Around-the-World-in-a-Minute",
     "contributions": "UI animations, Illustrations",
@@ -188,14 +188,14 @@
       }
     ]
   },
-  "bingo": {
+  "thrive": {
     "id": 4,
-    "title": "St. Patty's Bingo",
+    "title": "Thrive",
     "active": true,
-    "tagline": "Bingo Caller",
-    "description": "Created for my office's St. Patty's event to help run a low budget bingo game for 50+ people",
-    "featuredImage": "/img/projects/bingo.png",
-    "github": "https://github.com/emilwang11/Bingo",
+    "tagline": "Helping newcomers feel at home",
+    "github": "https://github.com/S-M-Jawwad-Raza/HackUofTVI",
+    "description": "An android app that translates objects in photos and speech-to-text translations.",
+    "featuredImage":  "/img/projects/Thrive.png",
     "client": "Cool Ventures, California",
     "clientUrl": "https://www.behance.net/gallery/69868059/Hyperloop-Interface-Around-the-World-in-a-Minute",
     "contributions": "UI animations, Illustrations",

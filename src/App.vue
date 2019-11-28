@@ -7,9 +7,10 @@
       <b-collapse is-nav id="nav_collapse">
         <!-- Right aligned nav items, collapsed on mobile -->
         <b-navbar-nav class="ml-auto">
-          <b-nav-item to="/#" right>Home</b-nav-item>
-          <b-nav-item to="/about" right>About</b-nav-item>
-          <b-nav-item href="/img/resume.pdf" target="_blank">Resume</b-nav-item>
+          <b-nav-item  class="nav-bold" to="/#" right>Home</b-nav-item>
+          <b-nav-item class="nav-bold" to="/projects" right>Projects</b-nav-item>
+          <b-nav-item class="nav-bold" to="/about" right>About</b-nav-item>
+          <b-nav-item class="nav-bold" href="/img/resume.pdf" target="_blank">Resume</b-nav-item>
         </b-navbar-nav>
       </b-collapse>
     </b-navbar>
@@ -25,23 +26,23 @@
               <a href="https://www.linkedin.com/in/emwang11/" target="_blank">
                 <b-img
                   src="/img/icons/linkedin-logo.png"
-                  class="icons"
+                  class="icons linkedin"
                ></b-img>
               </a>
               <a href="https://github.com/emilwang11" target="_blank">
                 <b-img
                   src="/img/icons/github-logo.png"
-                  class="icons"
+                  class="icons github"
                ></b-img>
               </a>
                <a href="mailto:e47wang@uwaterloo.ca? Subject=Hello" target="_top">
                 <b-img
                   src="/img/icons/mail-logo.png"
-                  class="icons"
+                  class="icons mail"
                ></b-img>
               </a>
             </div>
-      <p>Made with &hearts; by Emily &copy; 2019</p>
+      <p>Made with 🌊 by Emily &copy; 2019</p>
     </div>
 
   </div>
@@ -77,7 +78,27 @@ body { padding-top: 70px; }
   padding: 0;
 
 }
+.nav-bold{
+  font-weight:500;
+}
+.h1{
+  font-weight: bold;
+  font-family:'Arial' !important;
+}
+.linkedin:hover{
+  width: 27px;
+  margin: 9px;
 
+}
+.github:hover{
+  width: 27px;
+  margin: 9px;
+
+}
+.mail:hover{
+  width: 27px;
+  margin: 9px;
+}
 </style>
 
 <script lang="ts">

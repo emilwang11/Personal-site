@@ -46,7 +46,6 @@
               Now with a technical foundation, I’m interested product management as it’s an intesection with my interests in business,
               focuses on the human aspect of engineering, and leverages my strong suit of critical thinking.
             </p>
-
           </b-col>
         </b-row>
       </b-container>
