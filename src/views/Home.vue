@@ -27,9 +27,9 @@
               I’m a Systems Design student interested in product management and software engineering with a passion for social good.
             </p>
             <p class ="intro w-75 ">
-                Software Developer<span class="accent"> @ </span> <a href=https://tdlab.io class="link"> TD Labs</a> <br>
+                Software Developer<span class="accent"> @ </span> <a href=https://tdlab.io target="_blank" class="link"> TD Labs</a> <br>
                 Engineering Student <span class="accent"> @ </span> University of Waterloo <br>
-                Logistics Organizer <span class="accent"> @ </span> <a href=https://hackthenorth.com class="link"> Hack the North </a>
+                Logistics Organizer <span class="accent"> @ </span> <a href=https://hackthenorth.com target="_blank" class="link"> Hack the North </a>
             </p>
             <div class= "margin-auto">
               <a href="https://www.linkedin.com/in/emwang11/" target="_blank">
