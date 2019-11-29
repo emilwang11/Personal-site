@@ -1,16 +1,15 @@
 <template>
   <div id="app">
     <b-navbar toggleable="md" fixed="top" class="header">
-      <b-navbar-toggle target="nav_collapse"></b-navbar-toggle>
       <b-navbar-brand to="/"> <img class="logo" src="/img/logo.png" ></b-navbar-brand>
-
-      <b-collapse is-nav id="nav_collapse">
-        <!-- Right aligned nav items, collapsed on mobile -->
-        <b-navbar-nav class="ml-auto">
-          <b-nav-item  class="nav-bold" to="/#" right>Home</b-nav-item>
-          <b-nav-item class="nav-bold" to="/projects" right>Projects</b-nav-item>
-          <b-nav-item class="nav-bold" to="/about" right>About</b-nav-item>
-          <b-nav-item class="nav-bold" href="/img/resume.pdf" target="_blank">Resume</b-nav-item>
+        <b-navbar-toggle target="nav_collapse"></b-navbar-toggle>
+        <b-collapse is-nav id="nav_collapse">
+          <!-- Right aligned nav items, collapsed on mobile -->
+          <b-navbar-nav class="ml-auto">
+            <b-nav-item  class="nav-bold" to="/#" right>Home</b-nav-item>
+            <b-nav-item class="nav-bold" to="/projects" right>Projects</b-nav-item>
+            <b-nav-item class="nav-bold" to="/about" right>About</b-nav-item>
+            <b-nav-item class="nav-bold" href="/img/resume.pdf" target="_blank">Resume</b-nav-item>
         </b-navbar-nav>
       </b-collapse>
     </b-navbar>
@@ -98,6 +97,11 @@ body { padding-top: 70px; }
 .mail:hover{
   width: 27px;
   margin: 9px;
+}
+
+.navbar-nav{
+  background-color: #C8E7E1;
+  border-radius: 7px;
 }
 </style>
 

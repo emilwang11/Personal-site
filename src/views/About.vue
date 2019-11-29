@@ -6,27 +6,26 @@
       md="auto">
       <b-img
        src="/img/Quote.png"
-       class="quote m-4 p-4"
+       class="quote m-4 p-4 pl-0"
      ></b-img>
     </b-col>
 
     <div>
-      <h2 class="w-25"> About </h2>
+        <h2 class="align-center"> About </h2>
     </div>
     <b-container fluid class="home px-0">
         <b-row class="my-2">
-          <b-col
-            cols="8"
-            offset-cols="4"
-            sm="8"
-            offset-sm="2"
+           <b-col
+            sm="11"
+            offset-sm="1"
             md="3"
             offset-md="1"
+            class="mb-4 pl-0"
           >
             <b-img
               fluid
               src="/img/about.png"
-              class="background-image"
+              class="w-100 background-image"
             ></b-img>
           </b-col>
           <b-col
@@ -60,16 +59,23 @@
   margin: auto;
   text-align: left;
 }
-.quote{
+
+  .quote{
   width: auto;
   height: 20%;
+}
+@media (max-width: 575.98px) {
+  .quote{
+  width: 90%;
+  height: auto;
+}
 }
 
 .background-image {
   background-size: cover;
-  background-position: center;
-  width: 100% !important;
+  width: 80% !important;
   height: auto !important;
+  background-position: center;
 }
 
 .resume-link:hover{
