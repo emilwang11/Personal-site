@@ -46,14 +46,12 @@
               Now with a technical foundation, I’m interested product management as it’s an intesection with my interests in business,
               focuses on the human aspect of engineering, and leverages my strong suit of critical thinking.
             </p>
-
+            <p class ="about-content w-75 my-4"> Learn more about my experience on my <a class= "resume-link" href="/img/resume.pdf" target="_blank"> resume.</a></p>
           </b-col>
         </b-row>
       </b-container>
   </b-container>
 </template>
-
-
 
 <style lang="scss">
 .about-content{
@@ -72,6 +70,16 @@
   background-position: center;
   width: 100% !important;
   height: auto !important;
+}
+
+.resume-link:hover{
+color: rgb(187, 116, 98);
+text-decoration: none;
+}
+
+.resume-link{
+color: rgb(221, 148, 130);
+text-decoration: none;
 }
 
 </style>

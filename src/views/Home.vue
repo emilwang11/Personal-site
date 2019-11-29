@@ -1,100 +1,62 @@
 <template>
     <b-container fluid class="px-0 mb-5  ">
-
  <!-------------landing section--------------->
       <b-container fluid class="home px-0 my-5  ">
         <b-row class="my-5">
           <b-col
-            sm=12
+            sm="12"
             md="4"
-            offset-md=2
+            offset-md="1"
             class="mb-4"
           >
             <b-img
               fluid
               src="/img/me.png"
               rounded="circle"
-              class="h-100 w-100 background-image"
+              class="w-100 background-image my-3"
             ></b-img>
           </b-col>
           <b-col
             sm=12
             md=6
           >
-            <h2 class= "my-5 margin-auto">
-              Hi! I'm Emily!
-            </h2>
+            <h1 class= "greeting my-5 margin-auto">
+              Hi I'm Emily!
+            </h1>
             <p class ="intro w-75 my-4">
-              I’m an engineering student interested in product management and software engineering with a passion for social good.
+              I’m a Systems Design student interested in product management and software engineering with a passion for social good.
             </p>
             <p class ="intro w-75 ">
-                Software Developer @ TD Labs <br>
-                Systems Design Student @ University of Waterloo <br>
-                Logistics Organizer @ Hack the North
+                Software Developer<span class="accent"> @ </span> <a href=https://tdlab.io target="_blank" class="link"> TD Labs</a> <br>
+                Engineering Student <span class="accent"> @ </span> University of Waterloo <br>
+                Logistics Organizer <span class="accent"> @ </span> <a href=https://hackthenorth.com target="_blank" class="link"> Hack the North </a>
             </p>
             <div class= "margin-auto">
               <a href="https://www.linkedin.com/in/emwang11/" target="_blank">
                 <b-img
                   src="/img/icons/linkedin-logo.png"
-                  class="icons"
+                  class="icons linkedin"
                ></b-img>
               </a>
               <a href="https://github.com/emilwang11" target="_blank">
                 <b-img
                   src="/img/icons/github-logo.png"
-                  class="icons"
+                  class="icons github"
                ></b-img>
               </a>
                <a href="mailto:e47wang@uwaterloo.ca? Subject=Hello" target="_top">
                 <b-img
                   src="/img/icons/mail-logo.png"
-                  class="icons"
+                  class="icons mail"
                ></b-img>
               </a>
             </div>
           </b-col>
         </b-row>
+        <a href="/projects" class="arrow">
+         View projects &#8594;
+        </a>
       </b-container>
-
- <!-------------project section--------------->
-    <b-container class="py-5" >
-      <h1 class="py-4 text-left">
-        Projects
-      </h1>
-      <b-card-group columns deck class="my-2">
-        <div
-          class="ma-2 mx-auto card-container"
-          v-for="(page, key) in json"
-          :key="page.id"
-          >
-
-          <b-card
-            :title= page.title
-            :img-src= page.featuredImage
-            img-alt="Image"
-            img-top
-            tag="article"
-            class="mb-4 content"
-          >
-            <b-card-text>
-                <p class="tagline"> {{page.tagline}} </p>
-                <p class="description"> {{page.description}} </p>
-            </b-card-text>
-
-            <!-- <b-button v-if="page.id<4" :href="'/project/' + key" class="block button p-2" >Learn more</b-button> -->
-            <a :href="page.github" target="_blank">
-              <b-img v-if="page.id != 3"
-                src="/img/icons/github-logo.png"
-                class="icons"
-              ></b-img>
-            </a>
-            <b-button v-if="page.id == 3" :href="page.github" target="_blank" style="background-color: #91C6BD !important" class="button px-3" >Visit </b-button>
-          </b-card>
-        </div>
-      </b-card-group>
-    </b-container>
-
-     <!-------------skills section--------------->
   </b-container>
 </template>
 
@@ -137,82 +99,56 @@ img {
   height: auto !important;
 }
 
-.h2{
+.accent{
+  color: #F6BDAE;
+}
+.greeting{
+  font-family:'Arial' !important;
   margin: auto;
+  font-weight: bold !important;
 }
 .intro {
   color: #3B3333;
   font-size: 1.3em;
   margin: auto;
 }
-.card-container{
-  height: auto;
+.link{
+color: inherit;
+text-decoration: none;
+}
+.link:hover{
+color: rgb(221, 148, 130) !important;
+text-decoration: none;
+}
+
+.arrow{
+  text-decoration: none;
+  color: #69bac0;
+  font-size: 18px;
+  font-weight:500;
+}
+.arrow:hover{
+  text-decoration: none;
+  color: #539397;
+  font-size: 19px;
 }
 
 .icons {
   width: 25px;
   margin: 10px;
 }
-.card-img-top{
-  border-radius: inherit !important;
-  height: 9rem;
-}
+.linkedin:hover{
+  width: 27px;
+  margin: 9px;
 
-.card{
-  border: none !important;
-  border-radius: 20px !important;
-  position: relative !important;
-  box-shadow: 0 0.5px 20px 0 rgba(0, 0, 0, 0.1) !important;
-  width: 20rem;
-   -webkit-transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
-  transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
 }
+.github:hover{
+  width: 27px;
+  margin: 9px;
 
-.card::after{
-  border: none !important;
-  border-radius: 20px !important;
-  position: absolute;
-  z-index: -1;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  box-shadow: 0 0.5px 20px 0 rgba(0, 0, 0, 0.1) !important;
-  opacity: 0;
-  -webkit-transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
-  transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
 }
-
-.card:hover {
-  transform: scale(1.02, 1.02);
-  -webkit-transform: scale(1.02, 1.02);
-}
-
-.card:hover::after {
-  opacity: 1;
-}
-
-.card-body{
-  height: 15rem;
-  position: relative;
-}
-.tagline{
-  font-size: 1.1em;
-  font-style: italic;
-  color: #3B3333;
-}
-.description{
-  font-size: 1em;
-  color: #3B3333;
-}
-.button{
-  background-color: #BCBCBC !important;
-  color: white;
-  border: none !important;
-  bottom: 5px !important;
-}
-.card-title{
-  font-size: 1.4rem;
-  font-weight: bold;
+.mail:hover{
+  width: 27px;
+  margin: 9px;
 }
 </style>
