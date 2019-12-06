@@ -42,7 +42,7 @@
               Software has become one of the most powerful vehicles for change and I wanted to learn how to program to bring my ideas to life.
               </p>
               <p class ="about-content w-75 my-4">
-              Now with a technical foundation, I’m interested product management as it’s an intesection with my interests in business,
+              Now with a technical foundation, I’m interested in product management as it’s an intesection with my interests in business,
               focuses on the human aspect of engineering, and leverages my strong suit of critical thinking.
             </p>
             <p class ="about-content w-75 my-4"> Learn more about my experience on my <a class= "resume-link" href="/img/resume.pdf" target="_blank"> resume.</a></p>
