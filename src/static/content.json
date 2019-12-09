@@ -1,7 +1,7 @@
 {
-  "colorBoard": {
+  "codeBoard": {
     "id": 1,
-    "title": "ColorBoard",
+    "title": "CodeBoard",
     "active": true,
     "tagline": "Run your handwritten code",
     "description": "Web app that turns pictures of handwrritten code into text and compiles it.",
