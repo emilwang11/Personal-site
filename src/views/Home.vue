@@ -75,6 +75,11 @@ export default Vue.extend({
   mounted () {
     this.json = json
     console.log(json)
+  },
+  methods: {
+    track () {
+      this.$ga.page('/')
+    }
   }
 })
 </script>
