@@ -107,6 +107,7 @@ body { padding-top: 70px; }
 
 <script lang="ts">
 import Vue from 'vue'
+
 var json = require('@/static/content.json')
 // @ is an alias to /src
 
