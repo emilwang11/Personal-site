@@ -1,2 +1,2 @@
 # My Personal Website
-Built upon base vue app structure from Frank Flitton
+Built using Vue.js
