@@ -10,9 +10,7 @@
      ></b-img>
     </b-col>
 
-    <div>
-        <h2 class="align-center"> About </h2>
-    </div>
+
     <b-container fluid class="home px-0">
         <b-row class="my-2">
            <b-col
@@ -32,20 +30,31 @@
             sm=12
             md=8
           >
+            <div>
+                <h2 class="align-center"> About </h2>
+            </div>
             <p class ="about-content w-75">
-              My dream job as a child was to be an inventor. Not even knowing exactly what that entailed,
-              I just wanted to design and build things that solved people’s problem. I kept a sketchbook
-              full of ideas for inventions/innovations from apps to newly designed backpacks. When I got older,
-              I discovered that was essentially what an engineer did.
+             Curiosity for how technology works and an enjoyment for problem solving led me to working as a software developer
+             at Transparent Kitchen and TD Labs.
              </p>
              <p class ="about-content w-75 my-4">
-              Software has become one of the most powerful vehicles for change and I wanted to learn how to program to bring my ideas to life.
+              Community involvement has always been very important to me whether through clubs on campus or volunteering in the community.
+              I've spent the last two years organizing Hack the North, bringing together 1500 students at Canada's biggest hackathon.
               </p>
               <p class ="about-content w-75 my-4">
-              Now with a technical foundation, I’m interested in product management as it’s an intesection with my interests in business,
-              focuses on the human aspect of engineering, and leverages my strong suit of critical thinking.
+
             </p>
             <p class ="about-content w-75 my-4"> Learn more about my experience on my <a class= "resume-link" href="/img/resume.pdf" target="_blank"> resume.</a></p>
+
+            <br>
+            <h4> Some random facts about me: </h4>
+               <ul  class ="about-content w-75 my-4">
+                <li>I run a hand drawn card shop<a class= "resume-link" href="https://www.etsy.com/ca/shop/PapercraneCardsShop" target="_blank"> (shameless plug here) 💌 </a> </li>
+                <li>Running during sunset is my favourite part of the day 🌅 </li>
+                <li>I finish books faster than TV shows 📗 </li>
+              </ul>
+
+
           </b-col>
         </b-row>
       </b-container>
