@@ -41,7 +41,7 @@
                ></b-img>
               </a>
             </div>
-      <p>Made with 🌊 by Emily &copy; 2019</p>
+      <p>Made with 🌊 by Emily &copy; 2021</p>
     </div>
 
   </div>

@@ -1,14 +1,10 @@
 <template>
-  <b-container fluid class="px-0 mb-5  ">
-    <b-col
-      col="auto"
-      sm="auto"
-      md="auto">
-    </b-col>
+  <b-container fluid class="px-0 my-5  ">
+
 
 
     <b-container fluid class="home px-0">
-        <b-row class="my-2">
+        <b-row class="my-4">
            <b-col
             sm="11"
             offset-sm="1"
@@ -19,7 +15,7 @@
             <b-img
               fluid
               src="/img/about.png"
-              class="w-100 background-image"
+              class="w-100 my-4 py-4 background-image"
             ></b-img>
           </b-col>
           <b-col
@@ -30,12 +26,11 @@
                 <h2 class="align-center"> About </h2>
             </div>
             <p class ="about-content w-75">
-             Curiosity for how technology works and an enjoyment for problem solving led me to working as a software developer
-             at Transparent Kitchen and TD Labs.
+             I'm a third year Systems Design Engineering student at the University of Waterloo. With a curiosity to understand how technology is built and an enjoyment for problem solving, I've previously worked as a software engineer at Transparent Kitchen and TD Labs. Now, as a product manager, I'm loving working at the intersection of engineering, design and business.
              </p>
              <p class ="about-content w-75 my-4">
               Community involvement has always been very important to me whether through clubs on campus or volunteering in the community.
-              I've spent the last two years organizing Hack the North, bringing together 1500 students at Canada's biggest hackathon.
+              I've spent the last two years organizing Hack the North, bringing together 3000+ students from around the world to build and create together.
               </p>
               <p class ="about-content w-75 my-4">
 
@@ -81,6 +76,8 @@
   width: 80% !important;
   height: auto !important;
   background-position: center;
+  border-radius: 10%;
+
 }
 
 .resume-link:hover{
