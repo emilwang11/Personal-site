@@ -66,7 +66,7 @@
 body { padding-top: 70px; }
 
 .header{
-  background:#C8E7E1 !important;
+  background:#FFFF !important;
   height: 55px !important;
 }
 
@@ -77,9 +77,7 @@ body { padding-top: 70px; }
   padding: 0;
 
 }
-.nav-bold{
-  font-weight:500;
-}
+
 .h1{
   font-weight: bold;
   font-family:'Arial' !important;
@@ -99,10 +97,20 @@ body { padding-top: 70px; }
   margin: 9px;
 }
 
-.navbar-nav{
-  background-color: #C8E7E1;
-  border-radius: 7px;
-}
+
+ .navbar-light {
+    .navbar-nav{
+      background-color: #FFFF;
+      border-radius: 7px;
+      .nav-bold{
+        font-weight:700;
+      }
+      .nav-link{
+          color:#69bac0!important
+      }
+    }
+  }
+
 </style>
 
 <script lang="ts">

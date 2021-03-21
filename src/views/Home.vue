@@ -24,12 +24,12 @@
               Hi I'm Emily!
             </h1>
             <p class ="intro w-75 my-4">
-              I’m a Systems Design student interested in product management or software engineering.
+              Curious about the world and interested in <br> product management and software engineering.
             </p>
             <p class ="intro w-75 ">
                Co-Director <span class="accent"> @ </span> <a href=https://hackthenorth.com target="_blank" class="link"> Hack the North </a> <br>
-                Fullstack Developer<span class="accent"> @ </span> <a href=https://tdlab.io target="_blank" class="link"> Transparent Kitchen</a> <br>
-                Engineering Student <span class="accent"> @ </span> University of Waterloo
+                Product Manager<span class="accent"> @ </span> <a href=https://www.tablz.com target="_blank" class="link"> Transparent Kitchen</a> <br>
+                Engineering Student <span class="accent"> @ </span> University of Waterloo <br>
             </p>
             <div class= "margin-auto">
               <a href="https://www.linkedin.com/in/emwang11/" target="_blank">

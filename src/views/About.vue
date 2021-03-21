@@ -4,10 +4,6 @@
       col="auto"
       sm="auto"
       md="auto">
-      <b-img
-       src="/img/Quote.png"
-       class="quote m-4 p-4 pl-0"
-     ></b-img>
     </b-col>
 
 
