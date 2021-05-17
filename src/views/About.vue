@@ -14,7 +14,7 @@
           >
             <b-img
               fluid
-              src="/img/about.png"
+              src="/img/about.jpeg"
               class="w-100 my-4 py-4 background-image"
             ></b-img>
           </b-col>
