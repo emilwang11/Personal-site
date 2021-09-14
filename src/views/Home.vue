@@ -28,7 +28,7 @@
             </p>
             <p class ="intro w-75 ">
                Co-Director <span class="accent"> @ </span> <a href=https://hackthenorth.com target="_blank" class="link"> Hack the North </a> <br>
-                Product Manager<span class="accent"> @ </span> <a href=https://www.tablz.com target="_blank" class="link"> Transparent Kitchen</a> <br>
+                Product Manager<span class="accent"> @ </span> <a href=https://construction.autodesk.com/ target="_blank" class="link"> Autodesk</a> <br>
                 Engineering Student <span class="accent"> @ </span> University of Waterloo <br>
             </p>
             <div class= "margin-auto">

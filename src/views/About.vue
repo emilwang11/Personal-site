@@ -26,7 +26,7 @@
                 <h2 class="align-center"> About </h2>
             </div>
             <p class ="about-content w-75">
-             I'm a third year Systems Design Engineering student at the University of Waterloo. With a curiosity to understand how technology is built and an enjoyment for problem solving, I've previously worked as a software engineer at Transparent Kitchen and TD Labs. Now, as a product manager, I'm loving working at the intersection of engineering, design and business.
+             I'm a third year Systems Design Engineering student at the University of Waterloo. With a curiosity to understand how and why technology is built and love for problem solving, I've previously worked as a product manager at Transparent Kitchen and software engineer at Transparent Kitchen and TD Labs.
              </p>
              <p class ="about-content w-75 my-4">
               Community involvement has always been very important to me whether through clubs on campus or volunteering in the community.
